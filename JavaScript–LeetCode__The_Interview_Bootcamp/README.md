@@ -49,7 +49,7 @@
     - Time: O(N^2), space: O(1)
 
   - Cách khác: Quy hoạch động (Dynamic Programming)
-    - Tạo 1 ma trận dp[i][j] = true nếu s[i...j] là palindrome (bài toán nhỏ hơn)
+    - Tạo 1 ma trận dp[i][j] = true nếu s[i...j] là palindrome (bài toán nhỏ hơn), ta sẽ dùng 2 con trỏ có độ dài là span (que trỏ span) để chạy lần lượt từ trái sang phải mỗi lần chạy là ứng vs 1 bài toán nhỏ hơn
     - dp[i][j] = true nếu s[i] === s[j] và dp[i+1][j-1] = true (bài toán nhỏ hơn đúng)
     - Time: O(N^2), space: O(N^2)
 
