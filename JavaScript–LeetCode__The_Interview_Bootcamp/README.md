@@ -9,17 +9,18 @@
 - Course: https://www.udemy.com/course/ultimate-javascript-leetcode-interview-bootcamp/learn/lecture/14958446#overview
 - Output: Expert in coding interview
 - Các topics sẽ gặp trong interview:
-  1. Strings
-  2. Dynamic Programming
-  3. Arrays
-  4. Intervals
-  5. Matrix
-  6. Linked Lists
-  7. Trees
-  8. Others (in acvance course: https://kaeducation.thinkific.com/courses/javascript-leetcode-the-complete-interview-bootcamp)
-  - Design (Practical Data Structures)
-  - Graphs
-  - Heaps
+  - Strings
+  - Dynamic Programming
+  - Arrays
+  - Intervals
+  - Matrix
+  - Linked Lists
+  - Trees
+  - Others 
+  (In acvance course: https://kaeducation.thinkific.com/courses/javascript-leetcode-the-complete-interview-bootcamp)
+    - Design (Practical Data Structures)
+    - Graphs
+    - Heaps
 - Source code: https://github.com/kaeducation/LeetCode_JS_Classic
 
 # 2. Strings
@@ -33,6 +34,9 @@
     - Sanitize input: Loại bỏ ko phải word và \_
     - Tạo 2 con trỏ: left và right => kết thúc khi left >= right / thấy 2 giá trị khác nhau thì return false
     - Time: O(N), space: O(1)
+
+  - Other comments
+    - có thể dùng dùng cách là split, reverse, join để kiểm tra palindrome nhưng mà time complexity của cách này không phải là O(1), mà là O(N) vì phải duyệt qua tất cả các phần tử. Nếu đặt thêm biến mới nữa thì space complexity sẽ là O(N)
 
 - Longest Palindrome (LC5):
 
@@ -50,3 +54,9 @@
     - dp[i][i] = true
     - dp[i][i+1] = true nếu s[i] === s[i+1]
     - Time: O(N^2), space: O(N^2)
+
+- Longest Substring Without Repeating Characters (LC3):
+
+  - Problem 3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+  - Kỹ thuật Sliding Window
+  - Các bước:
