@@ -49,10 +49,8 @@
     - Time: O(N^2), space: O(1)
 
   - Cách khác: Quy hoạch động (Dynamic Programming)
-    - Tạo 1 ma trận dp[i][j] = true nếu s[i...j] là palindrome
-    - dp[i][j] = true nếu s[i] === s[j] và dp[i+1][j-1] = true
-    - dp[i][i] = true
-    - dp[i][i+1] = true nếu s[i] === s[i+1]
+    - Tạo 1 ma trận dp[i][j] = true nếu s[i...j] là palindrome (bài toán nhỏ hơn)
+    - dp[i][j] = true nếu s[i] === s[j] và dp[i+1][j-1] = true (bài toán nhỏ hơn đúng)
     - Time: O(N^2), space: O(N^2)
 
 ## 2.3 Longest Substring Without Repeating Characters (LC3):

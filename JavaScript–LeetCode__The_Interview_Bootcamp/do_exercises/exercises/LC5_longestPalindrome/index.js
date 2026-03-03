@@ -4,6 +4,7 @@
 // longestPalindrome("abba") --> "abba"
 // longestPalindrome("a") --> "a"
 
+// 1. Kỹ thuật Expand Around Center
 function longestPalindrome(s) {
   let recordedLeft = 0;
   let recordedLength = 0;
@@ -26,5 +27,5 @@ function longestPalindrome(s) {
 
   return s.slice(recordedLeft, recordedLeft + recordedLength);
 }
-
+LC5_longestPalindrome
 module.exports = longestPalindrome;
