@@ -25,7 +25,7 @@
 
 # 2. Strings
 
-- Palindrome (LC125):
+## 2.1 Palindrome (LC125_isPalindrome):
 
   - Chuỗi dối xứng
   - Problem 125: https://leetcode.com/problems/valid-palindrome/
@@ -38,7 +38,7 @@
   - Other comments
     - có thể dùng dùng cách là split, reverse, join để kiểm tra palindrome nhưng mà time complexity của cách này không phải là O(1), mà là O(N) vì phải duyệt qua tất cả các phần tử. Nếu đặt thêm biến mới nữa thì space complexity sẽ là O(N)
 
-- Longest Palindrome (LC5):
+## 2.2 Longest Palindrome (LC5_longestPalindrome):
 
   - Problem 5: https://leetcode.com/problems/longest-palindromic-substring/
   - Kỹ thuật Expand Around Center
@@ -55,7 +55,7 @@
     - dp[i][i+1] = true nếu s[i] === s[i+1]
     - Time: O(N^2), space: O(N^2)
 
-- Longest Substring Without Repeating Characters (LC3):
+## 2.3 Longest Substring Without Repeating Characters (LC3):
 
   - Problem 3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
   - Kỹ thuật Sliding Window
