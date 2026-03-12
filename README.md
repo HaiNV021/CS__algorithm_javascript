@@ -6,6 +6,7 @@
 - JS leatcode the interview bootcamp: https://www.udemy.com/course/ultimate-javascript-leetcode-interview-bootcamp/?couponCode=MT251006G3
 
 ## Engineer pro
+- https://docs.google.com/document/d/1Ih0O8I13ncwEAg2M6gk8AGWh_5UK4FMK2OwiQfW_qKw/edit?tab=t.0
 
 
 # Docs:
